@@ -6,6 +6,12 @@ html, body{
     width: 100%;
     height: 100%;
 }
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
 .outside-box{
     width: 100%;
     height: 100%;
@@ -29,7 +35,7 @@ html, body{
     height: 10%;
     background-color: #101012;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content:left;
     align-items: center;
 }
@@ -37,10 +43,20 @@ html, body{
     width: 3%;
     height: 50%;
     background-color: red;
-    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.top-bar-back-button i{
-    margin: auto;
+.top-bar-text-container{
+    margin-left: 45%;
+}
+.top-bar-text-input{
+    border:0px;
+    background-color: #101012;
+    color:white
+}
+.top-bar-notrification{
+ margin-left: 20%;
 }
 .information-screen{
     width: 100%;
@@ -56,4 +72,17 @@ html, body{
     width: 100%;
     height: 10%;
 background-color: cornflowerblue;
+}
+
+
+
+
+
+/*font awsome icons*/
+
+.magnifying-glass-color{
+    color:gray
+}
+.bell-color{
+    color:gray
 }
