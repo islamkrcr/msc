@@ -65,15 +65,47 @@ button:focus {
     margin-top: 10%;
 }
 .list-menu-list-item{
-    background-color: #3542c6;
     margin-bottom: 3px;
-    color: #3E3D42;
+    color: #323136;
     width: 75%;
     height: 40px;
     display: flex;
     align-items: center;
- 
-    
+    padding-left: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.list-menu-hr{
+    width: 75%;
+    margin-bottom: 30px;
+}
+.menu-hr{
+    border-color: #323136;
+}
+.list-menu-playlists{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-menu-playlist-name{
+    margin-left: 20%;
+    font-size: normal;
+    color: white;
+    margin-bottom: 20px;
+    color: #323136;
+    width: 60%;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 .left-item-container{
     width: 80%;
@@ -144,16 +176,30 @@ margin-right: 55px;
     background-color: cornflowerblue;
 }
 
-
-
+/*hover etc*/
+.list-menu-list-item:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.list-menu-playlist-name:hover{
+    color:white;
+    cursor: pointer;
+    font-size: medium;
+    height: 25px;
+}
 
 
 /*font awsome icons*/
+.fa-solid{
+    margin-right: 10px;
+}
 .fa-stack .plus-lt{
     position: absolute;
 	bottom: 0px ;
 	text-align: right;	
 	line-height: 2.5em;
+    margin: 0px;
 }
 .arrow-color{
     color: white;
