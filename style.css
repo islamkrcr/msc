@@ -80,6 +80,7 @@ button:focus {
 }
 .list-menu-hr{
     width: 75%;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 .menu-hr{
@@ -106,6 +107,50 @@ button:focus {
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
+}
+.list-menu-hr2{
+    width: 75%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.menu-hr2{
+    border-color: #323136;
+}
+.list-menu-logout{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+.list-menu-logout-settings{
+    margin-bottom: 3px;
+    color: #323136;
+    width: 75%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.list-menu-logout-logout{
+    margin-bottom: 3px;
+    color: #323136;
+    width: 75%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 .left-item-container{
     width: 80%;
@@ -182,10 +227,21 @@ margin-right: 55px;
     color: white;
     cursor: pointer;
 }
+.list-menu-logout-settings:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.list-menu-logout-logout:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
 .list-menu-playlist-name:hover{
     color:white;
     cursor: pointer;
     font-size: medium;
+    margin-bottom: 5px;
     height: 25px;
 }
 
